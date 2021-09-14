@@ -184,3 +184,9 @@ body {
         border: 1px solid transparent;
     }
 }
+
+@media(max-height:600px){
+    .partygram-wrapper{
+        height:50rem;
+    }
+}
