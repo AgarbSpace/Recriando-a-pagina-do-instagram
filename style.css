@@ -156,16 +156,16 @@ body {
     }
 }
 
-@media(max-width:890px){
+@media(max-width:930px){
     .partygram-wrapper{
         width: 70%;
     }
 
-    .partygram-phone{
+    .capa{
         display: none;
     }
 
-    .partygram-continue{
+    .dados{
         width: 100%;
     }
 
