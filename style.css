@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.partygram-wrapper {
     display: flex; /*Sempre coloca os elementos em linha ocupando o maior espaço */
     align-items: center; /*Alinhamento vertical dos itens*/
     justify-content: start; /*Alinhamento em linha*/
@@ -28,19 +28,19 @@ body {
 }
 
 
-.instagram-phone {
+.capa {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.capa img {
     height: 50rem;
     width: 30rem;
 }
 
-.instagram-continue {
+.dados {
     display: flex;
     align-items: center; /*Ficou na horizontal*/
     justify-content: space-between; /*Ficou na vertical*/ 
@@ -72,7 +72,7 @@ body {
     margin-top: 1.3rem;
 }
 
-.instagram-logo {
+.partygram-logo {
     height: 6rem;
     margin-bottom: 10%;
 }
@@ -90,7 +90,7 @@ body {
     height: 6rem;
 }
 
-.instagram-login {
+.partygram-login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
@@ -98,7 +98,7 @@ body {
     margin-top: 1.3rem;
 }
 
-.instagram-logout {
+.partygram-logout {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -151,21 +151,21 @@ body {
 /* media queries*/
 
 @media(max-width:1400px){
-    .instagram-wrapper{
+    .partygram-wrapper{
         width: 95%;
     }
 }
 
 @media(max-width:890px){
-    .instagram-wrapper{
+    .partygram-wrapper{
         width: 70%;
     }
 
-    .instagram-phone{
+    .partygram-phone{
         display: none;
     }
 
-    .instagram-continue{
+    .partygram-continue{
         width: 100%;
     }
 
