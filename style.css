@@ -150,11 +150,12 @@ body {
 
 /* media queries*/
 
-@media(max-width:1400px){
+@media(max-width:1900px){
     .partygram-wrapper{
-        width: 95%;
+        width: 90%;
     }
 }
+
 
 @media(max-width:930px){
     .partygram-wrapper{
